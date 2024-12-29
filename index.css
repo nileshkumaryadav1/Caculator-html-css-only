@@ -1,0 +1,78 @@
+/* Universal Code */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.df{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+main{
+    background-color: rgb(189, 189, 189);
+}
+h1{
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+.container{
+    height: 100vh;
+}
+.calc-panal{
+    flex-direction: column;
+    box-shadow: 0 0 10px white;
+    background-color: rgb(160, 160, 160);
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    margin: 0.2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    border: 2.5px solid black;
+    cursor: pointer;
+}
+#input{
+    width: 14.5rem;
+    height: 50px;
+    text-align: right;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+    color: rgb(96, 96, 96);
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    border: none;
+}
+#input:hover{
+    border: 2.5px solid black;
+    cursor: pointer;
+}
+.operator{
+    color: red;
+    background-color: rgb(255, 255, 190);
+}
+.ac{
+    background-color: rgb(255, 41, 41);
+    color: white;
+}
+.equal{
+    background-color: rgb(42, 42, 255);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-size: larger;
+}
+.equal:hover{
+   border: 3px solid white;
+}
